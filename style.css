@@ -1,0 +1,48 @@
+html{
+}
+
+.interface{
+    width: 100%;
+    height: 100%;
+    overflow: none; 
+    position: fixed;
+}
+.interface #button1 {
+    background-color: rgb(93, 204, 214);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 100%;
+    outline: 0 !important;
+    position:absolute;                  
+    bottom:15%;                          
+    left:50%;
+    margin-left: -29px;  
+
+}
+.interface #button1 i{
+    margin-left: 4px;
+    
+}
+.interface #button1:hover{
+    transition: 1s;
+    box-shadow: 0 0 5px 3px rgba(0, 119, 158, 0.548);
+
+}
+.image{
+    height: 100%;
+}
+#image1{
+    position: absolute;
+    border-style: solid;
+    border-radius: 10px;
+    max-width: 100%;
+    margin:auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PL">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Random Imgur">
+        <!-- jquery -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <!-- bootstrap -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href=style.css>
+    </head>
+    <body>
+        <body onload="makeId()">
+        <script src="script.js"></script>
+        
+        <div class="container">
+            <div class = "imgcontainter">
+                <img class="images" id ="image1" onload="getSize()" onerror ="makeId()">
+            </div>
+            <p class="title"></p>
+        </div>
+        <div class="container">
+            <div class="interface">
+                <button id="button1" onclick="makeId(); getSize();"><i class="fa fa-play"></i></button>
+            </div>
+        </div>
+
+    </body>
+</html>
